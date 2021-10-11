@@ -1,2 +1,2 @@
 # Google VerifiedSMS Laravel Package
- This package developed for google verified sms.
+ This is a laravel package developed for google business communication api verified SMS.
