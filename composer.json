@@ -13,13 +13,6 @@
             "email": "saju.g@wontonetech.com"
         }
     ],
-	"extra": {
-        "laravel": {
-            "providers": [
-                "Wontonee\\VerifiedSMS\\Providers\\VerifiedSMSServiceProvider"
-            ]
-        }
-    },
      "require": {
 		"mdanter/ecc": "^1.0",
         "google/apiclient": "^2.11"
