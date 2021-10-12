@@ -13,6 +13,11 @@
             "email": "saju.g@wontonetech.com"
         }
     ],
+	"autoload": {
+        "psr-4": {
+            "Wontonee\\VerifiedSMS\\": "Wontonee/VerifiedSMS/src"
+        }
+    },
 	"extra": {
         "laravel": {
             "providers": [
