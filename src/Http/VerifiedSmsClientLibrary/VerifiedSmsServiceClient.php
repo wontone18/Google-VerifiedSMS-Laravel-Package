@@ -14,10 +14,10 @@ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 See the License for the specific language governing permissions and
 limitations under the License.
 */
-namespace Wontonee\VerifiedSMS\Http\VerifiedSmsClientLibrary;
+namespace Wontonee\Verifiedsms\Http\VerifiedSmsClientLibrary;
 
 use Mdanter\Ecc\Serializer\PublicKey\DerPublicKeySerializer;
-use Wontonee\VerifiedSMS\Http\VerifiedSmsHashingLibrary\HashCodeGenerator;
+use Wontonee\Verifiedsms\Http\VerifiedSmsHashingLibrary\HashCodeGenerator;
 use App\VerifiedSmsHashingLibrary\StringSanitizer;
 use App\VerifiedSmsHashingLibrary\UrlExtractor;
 use App\VerifiedSmsHashingLibrary\UrlFinder;

@@ -1,10 +1,10 @@
 <?php
 
-namespace Wontonee\VerifiedSMS\Providers;
+namespace Wontonee\Verifiedsms\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
-class VerifiedSMSServiceProvider extends ServiceProvider
+class VerifiedsmsServiceProvider extends ServiceProvider
 {
 
     /**

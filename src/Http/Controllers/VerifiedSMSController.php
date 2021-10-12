@@ -1,17 +1,17 @@
 <?php
 
 
-namespace Wontonee\VerifiedSMS\Http\Controllers;
+namespace Wontonee\Verifiedsms\Http\Controllers;
 
 use Mdanter\Ecc\EccFactory;
 use Mdanter\Ecc\Serializer\PrivateKey\PemPrivateKeySerializer;
 use Mdanter\Ecc\Serializer\PrivateKey\DerPrivateKeySerializer;
 use Mdanter\Ecc\Serializer\PublicKey\DerPublicKeySerializer;
 
-use Wontonee\VerifiedSMS\Http\VerifiedSmsClientLibrary\VerifiedSmsServiceClient;
+use Wontonee\Verifiedsms\Http\VerifiedSmsClientLibrary\VerifiedSmsServiceClient;
 
 
-class VerifiedSMSController extends Controller
+class VerifiedsmsController extends Controller
 {
     // agent id
     public $agentId;

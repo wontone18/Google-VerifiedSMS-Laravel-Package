@@ -15,13 +15,13 @@ See the License for the specific language governing permissions and
 limitations under the License.
 */
 
-namespace Wontonee\VerifiedSMS\Http\VerifiedSmsHashingLibrary;
+namespace Wontonee\Verifiedsms\Http\VerifiedSmsHashingLibrary;
 
 use Mdanter\Ecc\EccFactory;
 use Mdanter\Ecc\Serializer\PrivateKey\PemPrivateKeySerializer;
 use Mdanter\Ecc\Serializer\PublicKey\DerPublicKeySerializer;
 use Mdanter\Ecc\Serializer\PublicKey\PemPublicKeySerializer;
-use Wontonee\VerifiedSMS\Http\VerifiedSmsHashingLibrary\StringSanitizer;
+use Wontonee\Verifiedsms\Http\VerifiedSmsHashingLibrary\StringSanitizer;
 use Mdanter\Ecc\Util\NumberSize;
 
 

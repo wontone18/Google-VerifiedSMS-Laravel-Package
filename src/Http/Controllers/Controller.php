@@ -1,6 +1,6 @@
 <?php
 
-namespace Wontonee\VerifiedSMS\Http\Controllers;
+namespace Wontonee\Verifiedsms\Http\Controllers;
 
 use Illuminate\Foundation\Bus\DispatchesJobs;
 use Illuminate\Routing\Controller as BaseController;
