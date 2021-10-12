@@ -17,7 +17,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Wontonee\Verifiedsms\Http\Controllers\VerifiedSMSController;
+use Wontonee\Verifiedsms\Http\Controllers\VerifiedsmsController;
 
 class TestController extends Controller
 {
@@ -34,7 +34,7 @@ class TestController extends Controller
         $sms = "This is my first message testing by Saju For wontonee.";
         $mobileno = "+919811381218"; // Mobile no should be with countrycode and mobile no
         
-        $storehasing = new VerifiedSMSController($agentId, $privateKeyPath, $serviceAccountLocation, $apiKey, $sms,$mobileno);
+        $storehasing = new VerifiedsmsController($agentId, $privateKeyPath, $serviceAccountLocation, $apiKey, $sms,$mobileno);
 
         $storehasing->GoogleHashstore();
 
