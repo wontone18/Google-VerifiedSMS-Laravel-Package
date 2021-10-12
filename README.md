@@ -8,16 +8,9 @@
  ## Installation
  
 1. Use command prompt to run this package `composer require wontonee/verifiedsms`
-2. Now open `config/app.php` and register verified SMS provider
-```sh
-'providers' => [
-        // Verified SMS provider
-        Wontonee\VerifiedSMS\Providers\VerifiedSMSServiceProvider::class,
-]
-```
-3. Its ready to use now in your project. Lets test this by using a Example : Create any controller `php artisan make:controller TestController`
-4. Create a keys folder in your `http/controller/keys` (Put .pem and service account json file inside this folder).
-5. Open your `TestController.php` and write this code
+2. Its ready to use now in your project. Lets test this by using a Example : Create any controller `php artisan make:controller TestController`
+3. Create a keys folder in your `http/controller/keys` (Put .pem and service account json file inside this folder).
+4. Open your `TestController.php` and write this code
 ```sh
 <?php
 
