@@ -21,7 +21,7 @@
         }
     },
      "require": {
-		"mdanter/ecc": "^0.5.2",
-        "google/apiclient": "^2.0"
+		"mdanter/ecc": "^1.0",
+        "google/apiclient": "^2.11"
 	}
 }
