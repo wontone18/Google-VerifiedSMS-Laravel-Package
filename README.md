@@ -17,7 +17,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use Wontonee\VerifiedSMS\Http\Controllers\VerifiedSMSController;
+use Wontonee\Verifiedsms\Http\Controllers\VerifiedSMSController;
 
 class TestController extends Controller
 {
