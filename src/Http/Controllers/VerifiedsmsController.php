@@ -101,15 +101,12 @@ class VerifiedsmsController extends Controller
         );
 
         if ($response == null) {
-            echo 'null';
+            return "0";
         } elseif ($response->getStatusCode() == 200) {
-            echo 'Storing hash codes was successful.' . PHP_EOL;
-            //echo 'Response body from server:' . PHP_EOL;
-            echo $response->getBody();
+            return "200";
+            //$response->getBody();
         } else {
-            echo 'Hash codes were not stored. Error has occurred.' . PHP_EOL;
-            echo $response->getBody();
-            echo $response->getReasonPhrase();
+            return $response->getReasonPhrase();
         }
     }
 }
